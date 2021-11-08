@@ -7,7 +7,7 @@ This PoC illustrate different technique to successfully excute Mimikatz with pro
 2) Each syscall is obfuscated
 3) Use C# Console.WriteLine to masquerade our intention
 
-BEFORE COMPILING, IF ONE CHANGE SOURCE CODE, REMEMBER to CHANGE: int idx = 0x4aa73; the idx represent the index where Mimikatz begins
+BEFORE COMPILING, IF ONE CHANGE SOURCE CODE, REMEMBER TO CHANGE: int idx = 0x4aa73; the idx represent the index where Mimikatz begins
 Compile as .dll use https://github.com/mobdk/compilecs 
 Compile as .exe change DllMain to Main and: csc.exe /platform:x64 /target:exe /unsafe winboost.cs
 
