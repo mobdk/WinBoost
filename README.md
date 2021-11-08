@@ -19,5 +19,5 @@ cmd version
 
 from another run rundll32 winboost.dll,DllMain
 
-ZwGetNextProcess is used to find process cmd.exe with argument version, ZwGetNextThread is used after the rigth PID is found.
+ZwGetNextProcess is used to find process cmd.exe with argument version, ZwGetNextThread is used after the right PID is found.
 
