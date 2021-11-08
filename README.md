@@ -11,6 +11,8 @@ BEFORE COMPILING, IF ONE CHANGE SOURCE CODE, REMEMBER TO CHANGE: int idx = 0x4aa
 Compile as .dll use https://github.com/mobdk/compilecs 
 Compile as .exe change DllMain to Main and: csc.exe /platform:x64 /target:exe /unsafe winboost.cs
 
+Works on Windows 10 64bit build 20H2
+
 Execution:
 
 Start one new cmd like this:
